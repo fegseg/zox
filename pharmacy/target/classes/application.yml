@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  profiles:
+    active: dev
+
+qiniu:
+  accessKey: JOXYX4hug6rn1B9Fyg_Z_hHlDjlyWjmhr5P_MkNf
+  secretKey: UYj3Hpo3tlUDmuWTVB5pvLAslxaRGlZzvdZSxNA9
+  bucket: cgf5132610cc
+  host: http://rvw4onty3.hn-bkt.clouddn.com/
+  zone: 华南

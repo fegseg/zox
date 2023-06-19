@@ -1,0 +1,111 @@
+.drug-details {
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 28px;
+}
+
+.drug-details .breadcrumb {
+  text-align: left;
+  font-size: 16px;
+  height: 56px;
+  line-height: 56px;
+  color: #000000a6;
+}
+.drug-details .breadcrumb .icon-right {
+  font-size: 14px;
+  color: #000000a6;
+}
+.drug-details .breadcrumb a {
+  color: #000000a6;
+}
+.drug-details .breadcrumb a:hover {
+  color: #1890ff;
+}
+
+.drug-details .center {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #606266;
+  padding-left: 66px;
+}
+.drug-details .center .left {
+  line-height: 32px;
+  width: 400px;
+}
+.drug-details .center .left .drug {
+  /* margin-left: -11px; */
+  margin-top: 25px;
+}
+
+.drug-details .center .left .star-report {
+  height: 32px;
+  line-height: 32px;
+  padding-top: 6px;
+}
+.drug-details .center .left .star-report .btn-star {
+  float: left;
+}
+.drug-details .center .left .star-report .btn-report {
+  float: right;
+  margin-right: 10px;
+}
+.drug-details .center .left .star-report .ant-btn-link {
+  color: #796f6f;
+}
+.drug-details .center .left .star-report .ant-btn-link:hover {
+  color: #1890ff;
+}
+
+.drug-details .center .left p {
+  margin: 20px 5px 0 7px;
+  text-align: left;
+  color: #b1abab;
+}
+.drug-details .center .right {
+  width: 666px;
+  margin-left: 20px;
+  text-align: left;
+  line-height: 32px;
+  padding: 22px 0 0 18px;
+}
+
+.drug-details .amount {
+  width: 70px;
+}
+
+.drug-details .center .right .btn {
+  margin: 10px 20px 0 0;
+  width: 136px;
+}
+
+.drug-details .center .right .hint {
+  height: 18px;
+  line-height: 18px;
+  color: #838181;
+  margin: 18px 0 13px;
+}
+
+.drug-details .center .right .promise {
+  margin-top: 12px;
+}
+.drug-details .center .right .promise span {
+  margin-right: 18px;
+}
+.drug-details .center .right .promise i {
+  font-style: normal;
+  background-color: #2684ca;
+  color: #fff;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+}
+.drug-details .center .bottom {
+  width: 1000px;
+  margin-top: 11px;
+  margin-bottom: 28px;
+}

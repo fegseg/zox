@@ -1,0 +1,130 @@
+#health_tips_categorys {
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 28px;
+
+  .breadcrumb {
+    text-align: left;
+    font-size: 16px;
+    height: 56px;
+    line-height: 56px;
+    color: #000000a6;
+
+    .icon-right {
+      font-size: 14px;
+      color: #000000a6;
+    }
+
+    a {
+      color: #000000a6;
+    }
+
+    a:hover {
+      color: #1890ff;
+    }
+  }
+
+  .center {
+    min-height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #000000a6;
+    padding: 28px 38px;
+
+    .first-floor {
+      min-height: 86px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      background-color: #dcf0fd;
+      border: #64b5eb solid 1px;
+      // border-radius: 10px;
+
+      .article_sort {
+        height: 42px;
+        line-height: 42px;
+        width: 10%;
+        cursor: pointer;
+        font-size: 16px;
+        // border: #cbcfd3a1 1px solid;
+        border-bottom: none;
+      }
+
+      .category {
+        padding: 5px;
+        color: #000000a6;
+      }
+
+      .category:hover {
+        background-color: rgb(140, 127, 255);
+        color: #fff;
+        border-radius: 5px;
+      }
+    }
+
+    .second-floor {
+      width: 100%;
+      min-height: 350px;
+      padding: 0 58px;
+      border: dashed 1px #dedede;
+      border-top: none;
+
+      .list {
+        height: 138px;
+        line-height: 138px;
+        text-align: left;
+        padding: 26px 8px 0;
+        border-bottom: solid 0.5px #b8b6b6a6;
+
+        .title {
+          height: 38px;
+          line-height: 38px;
+          font-size: 22px;
+          margin-bottom: 0;
+
+          a {
+            color: #000000a6;
+          }
+
+          a:hover {
+            color: coral;
+          }
+        }
+
+        .contents {
+          height: 38px;
+          line-height: 38px;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+
+        p {
+          height: 28px;
+          line-height: 28px;
+          margin-bottom: 0;
+
+          .time {
+            margin-right: 38px;
+          }
+
+          .details {
+            float: right;
+            margin-right: 18px;
+            color: #000000a6;
+          }
+
+          .details:hover {
+            color: coral;
+          }
+        }
+
+
+      }
+    }
+  }
+
+}

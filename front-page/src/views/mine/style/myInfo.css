@@ -1,0 +1,73 @@
+#myInfo {
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 28px;
+}
+
+#myInfo .breadcrumb {
+  text-align: left;
+  font-size: 16px;
+  height: 56px;
+  line-height: 56px;
+  color: #000000a6;
+}
+#myInfo .breadcrumb .icon-right {
+  font-size: 14px;
+  color: #000000a6;
+}
+#myInfo .breadcrumb a {
+  color: #000000a6;
+}
+#myInfo .breadcrumb a:hover {
+  color: #1890ff;
+}
+
+#myInfo .myInfo-center {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #606266;
+  padding: 38px 150px 58px;
+}
+#myInfo .myInfo-center .revise {
+  width: 100%;
+  text-align: right;
+  margin-bottom: -38px;
+  padding: 6px 0 0;
+  height: 38px;
+  line-height: 38px;
+}
+#myInfo button.ant-btn.ant-btn-link {
+  color: #000000a6;
+}
+#myInfo button.ant-btn.ant-btn-link:hover {
+  color: #1890ff;
+}
+#myInfo .myInfo-center .desc {
+  margin: auto;
+  width: 100%;
+}
+#myInfo .desc .ant-descriptions-title {
+  font-size: 24px;
+  font-weight: normal;
+}
+#myInfo .desc span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  height: 30px;
+  display: inline-block;
+}
+#myInfo .ant-descriptions-item-label {
+  width: 300px;
+}
+
+#myInfo .upload-avatar {
+  float: right;
+  margin-top: 60px;
+  overflow: hidden;
+}
+#myInfo .ant-upload-list-item-info span {
+  margin-right: -170px;
+}

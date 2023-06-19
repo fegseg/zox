@@ -1,0 +1,66 @@
+.receiptInfo {
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 28px;
+}
+
+.receiptInfo .breadcrumb {
+  text-align: left;
+  font-size: 16px;
+  height: 56px;
+  line-height: 56px;
+  color: #000000a6;
+}
+
+.receiptInfo .breadcrumb .icon-right {
+  font-size: 14px;
+  color: #000000a6;
+}
+
+.receiptInfo .breadcrumb a {
+  color: #000000a6;
+}
+
+.receiptInfo .breadcrumb a:hover {
+  color: #1890ff;
+}
+
+.receiptInfo .center {
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #606266;
+  padding: 38px;
+}
+.receiptInfo .center .tag_default{
+  text-align: center;
+  font-size: 14px;
+  height: 28px;
+  width: 50px;
+  line-height: 28px;
+}
+
+.receiptInfo .center .set_default,
+.receiptInfo .center .add,
+.receiptInfo .center .update,
+.receiptInfo .center .delete{
+  height: 28px;
+  line-height: 28px;
+  color:#1890ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.receiptInfo .center .delete:hover,
+.receiptInfo .center .add:hover,
+.receiptInfo .center .update:hover,
+.receiptInfo .center .set_default:hover{
+  color: coral;
+}
+
+.receiptInfo .center .add_number{
+  color: coral;
+  font-size: 16px;
+  font-weight: bold;
+}
